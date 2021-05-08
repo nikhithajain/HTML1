@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Forecast</title>
+	<style type="text/css"> #main-header
+		{
+			background-color: black;
+			color: white;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header id="main-header" align="center"><h1>Weather Forecast</h1></header>
+<br>
+	<img src="w1.jpg" alt="Image" width="250">
+	<br>
+	<p><strong>Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time.</strong> People have attempted to predict the weather informally for millennia and formally since the 19th century. Weather forecasts are made by collecting quantitative data about the current state of the atmosphere at a given place and using meteorology to project how the atmosphere will change.</p>
+	<p>Once calculated by hand based mainly upon changes in barometric pressure, current weather conditions, and sky condition or cloud cover, weather forecasting now relies on computer-based models that take many atmospheric factors into account.<strong><em> Human input is still required to pick the best possible forecast model to base the forecast upon, which involves pattern recognition skills, teleconnections, knowledge of model performance, and knowledge of model biases.</em></strong> The inaccuracy of forecasting is due to the chaotic nature of the atmosphere, the massive computational power required to solve the equations that describe the atmosphere, the error involved in measuring the initial conditions, and an incomplete understanding of atmospheric processes. Hence, forecasts become less accurate as the difference between current time and the time for which the forecast is being made (the range of the forecast) increases. The use of ensembles and model consensus help narrow the error and pick the most likely outcome.</p>
+	<a href="https://mausam.imd.gov.in/" target="_blank">Click here for more information</a>
+	<br>
+	<h2>Weather Forecast of Different Cities</h2>
+	<br>
+	<table width="10px" border="10px">
+		<thead>
+			<tr>
+				<th>City</th>
+				<th>Temperature</th>
+				<th>Precipitation</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>New Delhi</td>
+				<td>36.6</td>
+				<td>30%</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td>Mumbai</td>
+				<td>34</td>
+				<td>59%</td>
+			</tr>
+		</tbody>
+		<tbody>
+			<tr>
+				<td>Bangaluru</td>
+				<td>27.8</td>
+				<td>69%</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<hr>
+	<br>
+	<h3>Feedback Form</h3>
+	<form action="process.php" method="POST">
+		<div>
+		<label>First Name</label>
+    	  	<input type="text" name="firstName" placeholder="First name">
+    	  	</div>
+    	  	<br>
+    	  	<div>
+    	  	<label>Last Name</label>
+    	  	<input type="text" name="lastName" placeholder="Last name">
+    	  </div>
+    	  <br>
+    	  <div>
+    	  	<label>Email</label>
+    	  	<input type="email" name="email" placeholder="Email">
+    	  </div>
+    	  <br>
+    	  <br>
+    	   <div>
+    	  	<label>Comments</label>
+    	  	<textarea name="comments" placeholder="Please enter your feedback"></textarea>
+    	  </div>
+
+</body>
+<footer align="center">Copyright &copy; Nikhitha Jain</footer>
+</html>
